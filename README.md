@@ -1,6 +1,6 @@
 # Guess The Number
 
-Guess The Number game is a game where you guess a number which the computer generates at random. You win if you guessed the number correctly.
+Guess The Number game is a game where you guess a number which the computer generates at random (Between 0 to 100). You win if you guessed the number correctly.
 If you enter a value higher than the guessed the number then the computer will tell you to lower your guess and if you enter a lower value
 the computer will ask you to increase your guessed number. The less number of guesses you take to find the original number the better it is.
 
@@ -22,26 +22,39 @@ Note that for executing a Java file via shell/terminal you must first add the pa
 
 ```bash
 
-Enter your guess here (Enter 101 to quit and 102 for help): 45
-
-You entered too low! Higher the number
-
+Guess a number between 0 to 100
 Enter your guess here (Enter 101 to quit and 102 for help): 56
 
-You entered too high! Lower the number
+You entered too low! Higher the number
 
-Enter your guess here (Enter 101 to quit and 102 for help): 50
+Enter your guess here (Enter 101 to quit and 102 for help): 67
 
 You entered too low! Higher the number
 
-Enter your guess here (Enter 101 to quit and 102 for help): 54
+Enter your guess here (Enter 101 to quit and 102 for help): 78
+
+You entered too low! Higher the number
+
+Enter your guess here (Enter 101 to quit and 102 for help): 85
+
+You entered too low! Higher the number
+
+Enter your guess here (Enter 101 to quit and 102 for help): 94
 
 You entered too high! Lower the number
 
-Enter your guess here (Enter 101 to quit and 102 for help): 52
+Enter your guess here (Enter 101 to quit and 102 for help): 90
+
+You entered too low! Higher the number
+
+Enter your guess here (Enter 101 to quit and 102 for help): 92
+
+You entered too high! Lower the number
+
+Enter your guess here (Enter 101 to quit and 102 for help): 91
 
 You guessed it correct!
-Number of guesses taken: 5
+Number of guesses taken: 8
 
 ```
 

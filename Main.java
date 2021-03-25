@@ -79,6 +79,7 @@ class Game{
 class Main{
     public static void main(String[] args) {
         Game gtn = new Game();
+        System.out.println("Guess a number between 0 to 100");
         gtn.takeUserInput();
         gtn.showMessage();
     }
