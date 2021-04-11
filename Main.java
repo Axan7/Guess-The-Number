@@ -1,3 +1,9 @@
+/*
+Author: Axan7
+Date Created: March 23, 2021
+Purpose: To make a game which is easy and fun to play.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 
